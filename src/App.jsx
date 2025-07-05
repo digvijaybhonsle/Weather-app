@@ -70,7 +70,7 @@ const App = () => {
       <SearchBar onSearch={handleSearch} />
       {error && <ErrorBanner message={error} />}
 
-      <div className="flex flex-col md:flex-row gap-2 mt-8 px-4 md:px-10 justify-center items-center">
+      <div className="flex flex-col md:flex-row gap-2 mt-8 px-4 md:px-10 justify-center">
         {/* Left Section: GIF */}
         <div className="md:w-1/2 flex justify-center py-4">
           <img
